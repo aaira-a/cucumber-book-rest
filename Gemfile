@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+group :application do
+  gem 'sinatra', '2.0.0.beta.2'
+end
+
 group :build do
   gem 'bundler', '1.16.0'
 end
