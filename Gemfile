@@ -9,6 +9,7 @@ group :build do
 end
 
 group :test do
+  gem 'childprocess', '0.8.0'
   gem 'cucumber', '3.0.0.pre.1'
   gem 'httparty', '0.14.0'
   gem 'rspec', '3.5.0'
