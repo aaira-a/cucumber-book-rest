@@ -10,6 +10,6 @@ end
 
 group :test do
   gem 'cucumber', '3.0.0.pre.1'
+  gem 'httparty', '0.14.0'
   gem 'rspec', '3.5.0'
-  gem 'rack-test', '0.6.3'
 end
